@@ -1,0 +1,23 @@
+{
+  "name": "simple-todos-api-using-prisma-and-postgres",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "SET DEBUG=simple-todos-api-using-prisma-and-postgres:* & nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.7",
+    "express": "~4.16.1",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.2.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.4.1"
+  }
+}
